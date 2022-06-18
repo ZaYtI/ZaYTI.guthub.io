@@ -1,9 +1,7 @@
-baseURL = 'http://example.org/'
-languageCode = 'en-us'
-title = 'e_Portefolio'
-theme = 'iutlens'
-
-
+baseURL = 'https://mm.ZaYtI.github.io/'
+languageCode = 'fr-fr'
+title = 'Mon e-Portfolio'
+theme = 'iutdelens'
 
 [[menu.main]]
 name = "CV"
