@@ -1,0 +1,14 @@
+{{ define "main" }}
+<div class="container" style="display: flex;">
+    {{ with .Site.Params.authorImage }}
+    <img src="{{ . }}" / style="width: 45%;">*
+    {{end}}
+    <div class="section" style="width: 55%; text-align:center;">
+        <h1>Antonin Riquart</h1>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident dolore earum itaque, iure omnis numquam cumque repellendus fuga? Recusandae, repellat temporibus? Atque, exercitationem fugiat? Nemo quaerat iste id dolorum quo ad. Aliquam quisquam similique quo quam laudantium sit repellat quidem corrupti est non aut labore maiores culpa dolor earum, in eveniet odit dolores, tenetur quasi doloribus voluptatum! Delectus quae expedita, hic repellat nostrum esse incidunt sed, adipisci porro a ex dicta tenetur eligendi nulla atque voluptatum! Quaerat aspernatur provident dolor quo rem hic, quam voluptate impedit harum ut temporibus. Mollitia exercitationem minima reiciendis cum maiores, vitae beatae! Nostrum, dignissimos nesciunt!</p>
+        <div class="content">
+            {{ .Content }}
+        </div>
+    </div>
+</div>
+{{ end }}
